@@ -7,7 +7,7 @@ import urllib
 import urllib.parse
 # client = pymongo.MongoClient('localhost', 27017)
 
-mongo_uri = "mongodb+srv://shyaboi:" + urllib.parse.quote("Ians@1kou") + "@cluster0.zqw64.azure.mongodb.net/donu?retryWrites=true&w=majority"
+mongo_uri = "mongodb+srv://shyaboi:" + urllib.parse.quote("I") + "@cluster0.zqw64.azure.mongodb.net/donu?retryWrites=true&w=majority"
 client = pymongo.MongoClient(mongo_uri)
 
 
