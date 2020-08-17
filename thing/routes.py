@@ -5,3 +5,5 @@ from thing.models import Thing
 @app.route("/thing", methods=["POST"])
 def posty():
     return Thing().pushy()
+
+    
